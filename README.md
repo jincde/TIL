@@ -585,3 +585,9 @@
 
 - `13팀` 프로젝트 시작.
 </details>
+
+<details>
+<summary> ✔ 221126 </summary>
+
+- `13팀` 프로젝트 메인 페이지 구조
+</details>
