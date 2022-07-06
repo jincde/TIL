@@ -1,6 +1,6 @@
 # Markdown
 
-![Markdown_Logo](https://i1.wp.com/leechoong.com/wp-content/uploads/2017/12/1_QDYH5xE3GnM_7spZ0eSuog-e1530533238310.png?fit=500%2C269)
+![Markdown_Logo](markdown_문법정리_장영진.assets/images.png)
 
 ## 1. 특징
 
