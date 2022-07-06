@@ -2,7 +2,7 @@
 
 - [markdown](https://github.com/jincde/TIL/tree/master/git)
 
-- [git](https://github.com/jincde/TIL/tree/master/git)
+- [git](https://github.com/jincde/TIL/tree/master/markdown)
 
   
 
@@ -10,8 +10,6 @@
 
 <details>
 <summary>✔ day 1 220704</summary>
-
-
 #### 가입
 
 - `github` 가입
@@ -35,7 +33,7 @@
 
 ---
 <details>
-<summary> ### ✔ day 2 220705 </summary>
+<summary> ✔ day 2 220705 </summary>
 
 - `markdown` 문법
 
@@ -51,7 +49,7 @@
 
 ---
 <details>
-<summary> ### ✔ day 3 220706 </summary>
+<summary> ✔ day 3 220706 </summary>
 
 - `로컬저장소` `원격저장소` 개념
 
