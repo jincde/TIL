@@ -8,9 +8,8 @@
 
 ---
 
-### <details>
-
-### <summary>✔ day 1 220704</summary>
+<details>
+<summary>✔ day 1 220704</summary>
 
 
 #### 가입
@@ -28,7 +27,6 @@
 - `Python` 설치
 - `VScode` 설치
 - `Typora` 설치
-
 </details>
 
 
@@ -36,8 +34,8 @@
 
 
 ---
-
-### ✔ day 2 220705
+<details>
+<summary> ### ✔ day 2 220705 </summary>
 
 - `markdown` 문법
 
@@ -46,14 +44,14 @@
 - `git` 실습
 
   - `add` `commit` 등 명령어
-
+  </details>
   
 
 
 
 ---
-
-### ✔ day 3 220706
+<details>
+<summary> ### ✔ day 3 220706 </summary>
 
 - `로컬저장소` `원격저장소` 개념
 
@@ -62,17 +60,4 @@
 - 저장소 만들고 `3커밋`
 
 - TIL `커밋`
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  #### 
-
-  
+</details>
