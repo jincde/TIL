@@ -8,7 +8,10 @@
 
 ---
 
-### ✔ day 1 220704
+### <details>
+
+### <summary>✔ day 1 220704</summary>
+
 
 #### 가입
 
@@ -25,6 +28,8 @@
 - `Python` 설치
 - `VScode` 설치
 - `Typora` 설치
+
+</details>
 
 
 
