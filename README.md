@@ -12,6 +12,8 @@
 
 <details>
 <summary>✔ day 1 220704</summary>
+
+
 #### 가입
 
 - `github` 가입
@@ -29,8 +31,6 @@
 - `Typora` 설치
 </details>
 
-
-
 <details>
 <summary> ✔ day 2 220705 </summary>
 
@@ -42,9 +42,6 @@
   - `add` `commit` 등 명령어
   </details>
   
-
-
-
 <details>
 <summary> ✔ day 3 220706 </summary>
 
@@ -55,4 +52,8 @@
 - 저장소 만들고 `3커밋`
 
 - TIL `커밋`
+</details>
+
+<details>
+<summary> ✔ day 4 220707</summary>
 </details>
