@@ -30,6 +30,3 @@ $ git config --global init.defaultBranch master
 ```bash
 $ git config --global --list
 ```
-
-
-

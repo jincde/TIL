@@ -30,7 +30,7 @@
 
 ### init
 
-`$git init`
+`$ git init`
 
 - 특정 폴더를 git 저장소(repository)를 만들어 git으로 관리 (`.git` 폴더가 생성됨)
 - git bash에서 `(master)`라는 표기를 확인할 수 있다(windows)
@@ -39,7 +39,7 @@
 
 ### add
 
-`$git add`
+`$ git add`
 
 - working directory상의 변경 내용을 staging area에 추가
 - untracked 상태 -> staged로 변경
@@ -49,7 +49,7 @@
 
 ### commit
 
-`$git commit -m '메세지'`
+`$ git commit -m '메세지'`
 
 - staged 상태의 파일들을 `commit`을 통해 버전으로 기록
 - commit 메세지는 변경 사항을 나타낼 수 있도록 명확하게 작성
@@ -63,7 +63,7 @@
 
 ### status
 
-`$git status`
+`$ git status`
 
 - git 저장소에 있는 파일의 상태를 확인하기 위해 사용
 - 파일의 상태를 확인할 수 있다
@@ -88,19 +88,37 @@
 
 ### log
 
-`$git log`
+`$ git log`
 
 - 현재 저장소에 기록된 커밋을 조회
 
 - 다양한 옵션을 통해 로그를 조회할 수 있음
 
-  - `$git log -1`
-  - `$git log --oneline`
-  - `$git log -2 --oneline`
+  - `$ git log -1`
+  - `$ git log --oneline`
+  - `$ git log -2 --oneline`
 
   ![image-20220706000655065](git_정리.assets/image-20220706000655065.png)
 
 
 
+### push
+
+```bash
+$ git push 원격저장소이름 브랜치이름
+
+ex)
+$ git push origin master
+```
+
+- 원격 저장소로 로컬 저장소 변경 사항을 `push`
+- 로컬 폴더의 파일/폴더가 아닌 저장소의 버전이 올라감
+
+
+
 ### git 영어사전 
+
+
+
+
 
