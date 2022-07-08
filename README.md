@@ -52,8 +52,23 @@
 <summary> ✔ day 4 220707 </summary>
 
 - `clone`개념 정리
+
 - `branch`개념 정리
+
 - `merge`개념 정리
+
 - `pull request`개념 정리
+  </details>
+
+  
+
+
+<details>
+<summary> ✔ day 5 220708 </summary>
+
+- 채용공고 정리
+- 지원자격 공통 기술스택 파악
+- 우대사항 파악
+- [job-research](https://github.com/jincde/job-research)
 </details>
 
