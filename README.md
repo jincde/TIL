@@ -35,13 +35,8 @@
 <summary> ✔ day 2 220705 </summary>
 
 - `markdown` 문법
-  - 실습 자료 제작
-  
 - `git` 실습
-
-  - `add` `commit` 등 명령어
-  </details>
-  
+</details>
 <details>
 <summary> ✔ day 3 220706 </summary>
 
