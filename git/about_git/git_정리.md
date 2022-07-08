@@ -201,8 +201,7 @@ feature branch 생성 후 master 브랜치에 변경사항이 없는 상황
    (master) $ git branch -d feature/home
    ```
    
-   > 자동삭제가 되지 않기 때문에 직접 삭제 필요
-   > 
+   - 자동삭제가 되지 않기 때문에 직접 삭제 필요
 
 
 
