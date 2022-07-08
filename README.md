@@ -41,11 +41,8 @@
 <summary> ✔ day 3 220706 </summary>
 
 - `로컬저장소` `원격저장소` 개념
-
 - `git 기본 브랜치` 설정
-
 - 저장소 만들고 `3커밋`
-
 - TIL `커밋`
 </details>
 
@@ -59,3 +56,4 @@
 - `merge`개념 정리
 - `pull request`개념 정리
 </details>
+
