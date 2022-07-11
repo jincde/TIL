@@ -69,3 +69,9 @@
 - [job-research](https://github.com/jincde/job-research)
 </details>
 
+<details>
+<summary> ✔ day 6 220711 </summary>
+
+- `python`기본 문법
+- 코드업 파이썬기본100제 ~20번 문항. ing
+  </details>
