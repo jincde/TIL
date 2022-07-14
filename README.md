@@ -85,3 +85,4 @@
 - `python` 조건문
 - `python` 반복문
   </details>
+- `VOCA`폴더 생성
