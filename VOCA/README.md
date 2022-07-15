@@ -2,7 +2,7 @@
 
 
 
-## Conflict
+## 1. Conflict
 
 - git 실습 중 알게된 단어
 - 갈등, 충돌
