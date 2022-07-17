@@ -101,3 +101,10 @@
 - `python` 프로젝트01 (01.py ~ 05.py)
   
   </details>
+
+<details>
+<summary> ✔ day 9 220717 </summary>
+
+- `Marktext` - Typora 대체 프로그램 설치 및 설정
+  
+  </details>
