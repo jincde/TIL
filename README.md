@@ -108,3 +108,10 @@
 - `Marktext` - Typora 대체 프로그램 설치 및 설정
   
   </details>
+  
+  <details>
+<summary> ✔ day 10 220718 </summary>
+
+- `OSI 7 Layer`
+  
+  </details>
