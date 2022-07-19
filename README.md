@@ -110,8 +110,19 @@
   </details>
   
   <details>
-<summary> ✔ day 10 220718 </summary>
+  <summary> ✔ day 10 220718 </summary>
 
 - `OSI 7 Layer`
   
   </details>
+  
+  <details>
+  <summary> ✔ day 11 220719 </summary>
+
+- `객체지향 - oop`
+
+- `SWEA` 4문제 실습
+
+- `python` 20번, 21번 실습 
+
+</details>
