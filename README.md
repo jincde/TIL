@@ -19,11 +19,8 @@
 #### 개발환경 설정
 
 - `git` 설치
-
 - `Python` 설치
-
 - `VScode` 설치
-
 - `Typora` 설치
   
   </details>
@@ -32,7 +29,6 @@
 <summary> ✔ day 2 220705 </summary>
 
 - `markdown` 문법
-
 - `git` 실습
   
   </details>
@@ -40,11 +36,8 @@
   <summary> ✔ day 3 220706 </summary>
 
 - `로컬저장소` `원격저장소` 개념
-
-- `git 기본 브랜치` 설정
-
+- `git 기본 브랜치` 설치
 - 저장소 만들고 `3커밋`
-
 - TIL `커밋`
   
   </details>
@@ -53,11 +46,8 @@
 <summary> ✔ day 4 220707 </summary>
 
 - `clone`개념 정리
-
 - `branch`개념 정리
-
 - `merge`개념 정리
-
 - `pull request`개념 정리
   
   </details>
@@ -66,11 +56,8 @@
 <summary> ✔ day 5 220708 </summary>
 
 - 채용공고 정리
-
 - 지원자격 공통 기술스택 파악
-
 - 우대사항 파악
-
 - [job-research](https://github.com/jincde/job-research)
   
   </details>
@@ -79,7 +66,6 @@
 <summary> ✔ day 6 220711 </summary>
 
 - `python`기본 문법
-
 - 코드업 파이썬기본100제 ~20번 문항. ing
   
   </details>
@@ -88,9 +74,7 @@
 <summary> ✔ day 7 220714 </summary>
 
 - `python` 조건문
-
 - `python` 반복문
-
 - `VOCA`폴더 생성
   
   </details>
@@ -109,14 +93,15 @@
   
   </details>
   
-  <details>
-  <summary> ✔ day 10 220718 </summary>
+<details>
+<summary> ✔ day 10 220718 </summary>
+
 - `OSI 7 Layer`
   
   </details>
   
-  <details>
-  <summary> ✔ day 11 220719 </summary>
+<details>
+<summary> ✔ day 11 220719 </summary>
 
 - `객체지향 - oop`
 - `SWEA` 4문제 실습
