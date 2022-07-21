@@ -1,6 +1,9 @@
+# word = 'happy!'
 word = input()
+
+
+#========================
 # 1. while문
-word = 'happy!'
 cnt = 0
 
 while (cnt < len(word)):
@@ -9,8 +12,8 @@ while (cnt < len(word)):
 print(cnt)
 
 
+#========================
 # 2. for문
-# word = 'happy!'
 # cnt = 0
 
 # for i in word:
@@ -18,4 +21,6 @@ print(cnt)
 
 # print(cnt)
 
+
+#========================
 # 3. for문(index)

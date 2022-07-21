@@ -1,2 +1,0 @@
-print('print("Hello\\nWorld")')
-

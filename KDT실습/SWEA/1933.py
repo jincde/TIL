@@ -1,4 +1,4 @@
-# 간단한 N의 약수
+# 간단한 N의 약수!!
 N = int(input())
 result = []
 
