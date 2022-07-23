@@ -140,3 +140,11 @@
 - `객체지향` - 스태틱 메소드, 데코레이터,
 
 </details>
+
+<details>
+<summary> ✔ day 14 220722 </summary>
+
+- `API` 
+- `TMDB API`실습
+
+</details>
