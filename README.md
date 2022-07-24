@@ -148,3 +148,10 @@
 - `TMDB API`실습
 
 </details>
+
+<details>
+<summary> ✔ day 15 220724 </summary>
+
+- `정보처리기사 실기시험 응시` 
+
+</details>
