@@ -155,3 +155,11 @@
 - `정보처리기사 실기시험 응시` 
 
 </details>
+
+<details>
+<summary> ✔ day 16 220725 </summary>
+
+- `알고리즘`
+- `백준`실습
+
+</details>
