@@ -171,3 +171,11 @@
 - `시간 복잡도`
 
 </details>
+
+<details>
+<summary> ✔ day 18 220727 </summary>
+
+- `python`문자열 메소드
+- `백준` 단계별 문제 풀이
+
+</details>
