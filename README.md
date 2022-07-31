@@ -179,3 +179,10 @@
 - `백준` 단계별 문제 풀이
 
 </details>
+
+<details>
+<summary> ✔ day 19 220729 </summary>
+
+- `코딩테스트 모의고사` 7문제 중 4문제 풀이
+
+</details>
