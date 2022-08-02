@@ -197,6 +197,6 @@
 <details>
 <summary> ✔ day 21 220802 </summary>
 
-- 자료구조 `힙`
+- 자료구조 `힙`, `셋`
 
 </details>
