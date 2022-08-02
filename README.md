@@ -186,3 +186,10 @@
 - `코딩테스트 모의고사` 7문제 중 4문제 풀이
 
 </details>
+
+<details>
+<summary> ✔ day 20 220801 </summary>
+
+- 자료구조 `스택`, `큐`
+
+</details>
