@@ -193,3 +193,10 @@
 - 자료구조 `스택`, `큐`
 
 </details>
+
+<details>
+<summary> ✔ day 21 220802 </summary>
+
+- 자료구조 `힙`
+
+</details>
