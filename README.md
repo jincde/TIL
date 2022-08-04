@@ -207,3 +207,10 @@
 - `2차원 리스트`
 
 </details>
+
+<details>
+<summary> ✔ day 23 220804 </summary>
+
+- 2차원 리스트 `순회`
+
+</details>
