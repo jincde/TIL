@@ -190,7 +190,7 @@
 <details>
 <summary> ✔ day 20 220801 </summary>
 
-- 자료구조 `stack` `queue`
+- 자료구조 `stack`, `queue`
 
 </details>
 
@@ -198,5 +198,12 @@
 <summary> ✔ day 21 220802 </summary>
 
 - 자료구조 `heap`, `set`
+
+</details>
+
+<details>
+<summary> ✔ day 22 220803 </summary>
+
+- `2차원 리스트`
 
 </details>
