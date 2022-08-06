@@ -14,10 +14,10 @@
 
 # print(rec)
 
-arr = [[0]*100 for _ in range(100)]
-for _ in range(4):
-    x1, y1, x2, y2 = map(int, input().split())
-    for i in range(x1, x2):
+arr = [[0]*100 for _ in range(100)] # 100 * 100 행렬 (0행렬)
+for _ in range(4): # 4개의 사각형
+    x1, y1, x2, y2 = map(int, input().split()) # 각각 값을 입력
+    for i in range(x1, x2): 
         for j in range(y1, y2):
-            arr[i][j] = 1
-print(sum(sum(arr,[])))
+            arr[i][j] = 1 # 좌표로 찍힌 부분(인덱스)를 전부 1로 바꿔줌
+print(sum(sum(arr,[]))) # 0행렬 전부의 값을 더한다

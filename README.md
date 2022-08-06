@@ -214,3 +214,10 @@
 - 2차원 리스트 `순회`
 
 </details>
+
+<details>
+<summary> ✔ day 24 220805 </summary>
+
+- `코딩테스트 모의고사` 2회차
+
+</details>
