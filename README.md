@@ -221,3 +221,11 @@
 - `코딩테스트 모의고사` 2회차
 
 </details>
+
+<details>
+<summary> ✔ day 25 220808 </summary>
+
+- `브루트포스`
+- `델타 탐색`
+
+</details>
