@@ -1,4 +1,6 @@
-N, M = map(int, input().split()) # N장, 최대점수M
+# 2798. 블랙잭
+
+N, M = map(int, input().split())
 card = list(map(int, input().split()))
 answer = 0
 
