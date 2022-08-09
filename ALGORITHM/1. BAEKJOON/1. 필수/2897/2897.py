@@ -15,7 +15,7 @@ arr = []
 for i in range(R): # R*C 행렬
     arr.append(input())
 
-car0 = 0 # 0대 주차
+car0 = 0 # 0대 주차RM
 car1 = 0 # 1대 주차
 car2 = 0 # 2대 주차
 car3 = 0 # 3대 주차
