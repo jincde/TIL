@@ -12,5 +12,5 @@ for _ in range(3):
             max_ = max(cnt, max_)
             cnt = 1
     
-    # max_ = max(cnt, max_)
+    max_ = max(cnt, max_)
     print(max_)

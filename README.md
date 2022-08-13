@@ -231,8 +231,8 @@
 </details>
 
 <details>
-<summary> ✔ day 26 220809 </summary>
+<summary> ✔ day 26 220812 </summary>
 
-- 
+- `코딩테스트 모의고사` 3회차
 
 </details>

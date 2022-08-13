@@ -1,4 +1,5 @@
 # 6996. 에너그램
+# abba = baab
 
 T = int(input())
 
