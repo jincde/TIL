@@ -10,12 +10,19 @@
 ### SQL
 
 - DB에서 조작하는 언어. (`Query`: 질의), 단순
+
 - RDBMS의 데이터 관리를 위해 설계된 프로그래밍 언어
+
 - DB 스키마 생성 및 수정
+
   - DDL(정의) : 구조를 정의. CREATE, DROP, ALTER
   - DML(조작) : 데이터를 조작. INSERT, SELECT, UPDATE
   - DCL(제어) : DB 사용자의 권한 제어. GRANT, REVOKE
+
+  
+
 - 필드 제약 조건
+
   - NOT NULL : NULL값 입력 금지
   - UNIQUE : 중복 값 입력 금지(NULL 값은 중복 입력 가능)
   - PRIMARY KEY : NOT NULL + UNIQUE

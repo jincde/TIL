@@ -193,3 +193,113 @@ height
 ------
 185
 ```
+
+
+
+#### ex3. 허리 둘레가 80이상이면서 몸무게가 50이하인 사람
+
+```sql
+sqlite> SELECT COUNT(*) FROM healthcare 
+WHERE waist >= 80 AND weight <= 50;
+```
+
+```sql
+COUNT(*)
+--------
+26774
+```
+
+
+
+#### ex4. 키가 180이상인 사람의 수
+
+```sql
+sqlite> SELECT COUNT(*) FROM healthcare 
+WHERE height >= 180;
+```
+
+```sql
+COUNT(*)
+--------
+28829
+```
+
+
+
+#### ex5. 키가 160이하인 사람의 수
+
+```sql
+sqlite> SELECT COUNT(*) FROM healthcare 
+WHERE height >= 180;
+```
+
+```sql
+COUNT(*)
+--------
+28829  
+```
+
+
+
+#### ex6. 흡연수치가 3이고, 음주가 0이면서, 혈압이 130 이상인 사람
+
+```sql
+SELECT COUNT(*) FROM healthcare 
+WHERE smoking = 3 AND is_drinking = 0 
+AND blood_pressure >= 130;
+```
+
+```sql
+COUNT(*)
+--------
+11416 
+```
+
+
+
+#### ex7. 흡연수치가 3이고, 음주가 1이면서, 혈압이 130 이상인 사람
+
+```sql
+SELECT COUNT(*) FROM healthcare 
+WHERE smoking = 3 AND is_drinking = 1 
+AND blood_pressure >= 130;
+```
+
+```sql
+COUNT(*)
+--------
+59424 
+```
+
+
+
+#### ex8. 흡연수치가 1이고, 음주가 0이면서, 혈압이 130 이상인 사람
+
+```sql
+SELECT COUNT(*) FROM healthcare 
+WHERE smoking = 1 AND is_drinking = 0 
+AND blood_pressure >= 130;
+```
+
+```sql
+COUNT(*)
+--------
+136895 
+```
+
+
+
+#### ex9. 흡연수치가 1이고, 음주가 1이면서, 혈압이 130 이상인 사람
+
+```sql
+SELECT COUNT(*) FROM healthcare 
+WHERE smoking = 1 AND is_drinking = 1 
+AND blood_pressure >= 130;
+```
+
+```sql
+COUNT(*)
+--------
+96364 
+```
+
