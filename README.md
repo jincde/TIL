@@ -236,3 +236,11 @@
 - `코딩테스트 모의고사` 3회차
 
 </details>
+
+<details>
+<summary> ✔ day 27 220816 </summary>
+
+- `데이터베이스`
+- `SQL` 작성 실습
+
+</details>
