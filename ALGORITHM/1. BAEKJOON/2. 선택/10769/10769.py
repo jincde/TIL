@@ -14,9 +14,9 @@ unhappy_cnt = S.count(':-(')
 
 if happy_cnt > unhappy_cnt:
     print('happy')
-elif happy_cnt == unhappy_cnt:
-    print('unsure')
 elif unhappy_cnt > happy_cnt:
     print('sad')
 elif happy_cnt == 0 and unhappy_cnt == 0:
     print('none')
+elif happy_cnt == unhappy_cnt:
+    print('unsure')
