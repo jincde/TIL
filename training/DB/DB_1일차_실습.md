@@ -182,7 +182,7 @@ COUNT(*)
 ##### ex2-1. ex2 중 가장 큰 사람의 키를 출력하시오.
 
 ```sql
-SELECT DISTINCT height
+SELECT height
 FROM healthcare
 WHERE gender = 2 AND height >= 180 
 ORDER BY height DESC LIMIT 1;
@@ -199,7 +199,7 @@ height
 #### ex3. 허리 둘레가 80이상이면서 몸무게가 50이하인 사람
 
 ```sql
-sqlite> SELECT COUNT(*) FROM healthcare 
+SELECT COUNT(*) FROM healthcare 
 WHERE waist >= 80 AND weight <= 50;
 ```
 
@@ -214,7 +214,7 @@ COUNT(*)
 #### ex4. 키가 180이상인 사람의 수
 
 ```sql
-sqlite> SELECT COUNT(*) FROM healthcare 
+SELECT COUNT(*) FROM healthcare 
 WHERE height >= 180;
 ```
 
@@ -229,14 +229,14 @@ COUNT(*)
 #### ex5. 키가 160이하인 사람의 수
 
 ```sql
-sqlite> SELECT COUNT(*) FROM healthcare 
-WHERE height >= 180;
+SELECT COUNT(*) FROM healthcare 
+WHERE height <= 160;
 ```
 
 ```sql
 COUNT(*)
 --------
-28829  
+559703
 ```
 
 
@@ -301,5 +301,21 @@ AND blood_pressure >= 130;
 COUNT(*)
 --------
 96364 
+```
+
+
+
+```sql
+COUNT(*)
+--------
+26774
+
+COUNT(*)
+--------
+28829
+
+COUNT(*)
+--------
+28829  
 ```
 
