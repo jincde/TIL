@@ -244,3 +244,10 @@
 - `SQL` 작성 실습
 
 </details>
+
+<details>
+<summary> ✔ day 28 220817 </summary>
+
+
+
+</details>
