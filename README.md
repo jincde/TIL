@@ -248,6 +248,13 @@
 <details>
 <summary> ✔ day 28 220817 </summary>
 
+- `SQL` 쿼리 작성 실습
 
+</details>
+
+<details>
+<summary> ✔ day 29 220818 </summary>
+
+- 
 
 </details>
