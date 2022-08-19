@@ -255,6 +255,7 @@
 <details>
 <summary> ✔ day 29 220818 </summary>
 
-- 
+- 'SQL' 쿼리 작성 실습
+- 숫자 관련 함수, `GROUP BY`
 
 </details>
