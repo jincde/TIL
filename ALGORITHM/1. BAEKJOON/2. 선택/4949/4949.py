@@ -1,36 +1,15 @@
 # 4949. 균형잡힌 세상
 
-import sys
-input = sys.stdin.readline
-
 while True:
-    words = input().rstrip()
+    a = input()
+    stack = []
 
-    if words == '.':
+    if a == '.':
         break
 
-    stack = []
-    flag = False
-    for word in words:
-        if word == '(':
-            stack.append(word)
-        elif word == ')':
-            if stack and stack[-1] == '(':
-                stack.pop()
-            else:
-                flag = True
-                break
-        
-        elif word == '[':
-            stack.append(word)
-        elif word == ']':
-            if stack and stack[-1] == '[':
-                stack.pop()
-            else:
-                flag = True
-                break
-
-    if flag or stack:
-        print('No')
-    elif not stack:
-        print('Yes')
+    for i in a:
+        if i == '[' or '(':
+            stack.append(i)
+        else:
+            
+            # 풀이중
