@@ -259,3 +259,11 @@
 - 숫자 관련 함수, `GROUP BY`
 
 </details>
+
+<details>
+<summary> ✔ day 30 220819 </summary>
+
+- `SQL` 서브쿼리 작성 실습
+- `INNER JOIN` 예습
+
+</details>
