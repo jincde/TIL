@@ -322,6 +322,16 @@ ArtistId  Name
 90        Iron Maiden
 ```
 
+```sql
+SELECT
+a1.ArtistId,
+a1.Name
+FROM artists a1
+INNER JOIN albums a2 on a1.ArtistId = a2.ArtistId
+GROUP BY a1.ArtistId
+ORDER BY COUNT(a2.ArtistId) DESC LIMIT 1;
+```
+
 
 
 ### 17. 장르(genres) 테이블에서 음악(tracks)의 개수가 가장 적은 장르의 `Name`을 출력하세요.
