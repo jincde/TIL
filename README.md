@@ -267,3 +267,11 @@
 - `INNER JOIN` 예습
 
 </details>
+
+<details>
+<summary> ✔ day 31 220812 </summary>
+
+- `SQL` 서브쿼리 작성 실습
+- `INNER, OUTER JOIN`
+
+</details>
