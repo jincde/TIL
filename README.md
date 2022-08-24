@@ -269,9 +269,8 @@
 </details>
 
 <details>
-<summary> ✔ day 31 220812 </summary>
+<summary> ✔ day 31 220822 </summary>
 
-- `SQL` 서브쿼리 작성 실습
-- `INNER, OUTER JOIN`
+- `ERD` 작성 실습
 
 </details>
