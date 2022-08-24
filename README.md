@@ -271,6 +271,20 @@
 <details>
 <summary> ✔ day 31 220822 </summary>
 
+- `SQL` JOIN 작성 실습
+
+</details>
+
+<details>
+<summary> ✔ day 32 220823 </summary>
+
 - `ERD` 작성 실습
+
+</details>
+
+<details>
+<summary> ✔ day 33 220824 </summary>
+
+- `ORM` 활용 실습
 
 </details>
