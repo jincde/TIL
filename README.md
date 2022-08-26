@@ -295,3 +295,10 @@
 - `ORM` 활용 실습 2일차
 
 </details>
+
+<details>
+<summary> ✔ day 35 220826 </summary>
+
+- `DB` 최종 테스트
+
+</details>
