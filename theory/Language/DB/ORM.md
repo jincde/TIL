@@ -108,7 +108,7 @@ DoesNotExist: Director matching query does not exist.
 
 
 
-```python
+```
 MultipleObjectsReturned: get() returned more than one Director -- it returned 8!
 ```
 

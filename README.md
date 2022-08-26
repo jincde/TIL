@@ -288,3 +288,10 @@
 - `ORM` 활용 실습
 
 </details>
+
+<details>
+<summary> ✔ day 34 220825 </summary>
+
+- `ORM` 활용 실습 2일차
+
+</details>
