@@ -302,3 +302,10 @@
 - `DB` 최종 테스트
 
 </details>
+
+<details>
+<summary> ✔ day 36 220829 </summary>
+
+- `Web`
+
+</details>
