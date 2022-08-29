@@ -306,6 +306,6 @@
 <details>
 <summary> ✔ day 36 220829 </summary>
 
-- `Web`
+- `HTML`, `CSS`개념
 
 </details>
