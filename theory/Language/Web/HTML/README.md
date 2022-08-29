@@ -131,16 +131,25 @@
       </ul>
       ```
 
+      > - apple
+      > - banana
+      > - grape
+
     - `<ol>` - ordered list
 
       ```html
       <ol>
-        <li>1. 제목</li>
-        <li>2. 본문</li>
-        <li>3. 마무리</li>
-        <li>4. 레퍼런스</li>
+        <li>제목</li>
+        <li>본문</li>
+        <li>마무리</li>
+        <li>레퍼런스</li>
       </ol>
       ```
+
+      > 1. 제목
+      > 2. 본문
+      > 3. 마무리
+      > 4. 레퍼런스
 
   - 연결
 
