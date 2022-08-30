@@ -160,6 +160,14 @@
     ```
 
     > 문장 안의 어떤 단어를 링크로 만들어 준다
+  
+- emmet
+
+  ul>li*5
+
+  h2#kimbap+ul>li.blue*5
+  
+  html 기본 글꼴 크기 16px
 
 <br>
 
@@ -167,3 +175,4 @@
 
 - [MDN web docs](https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/HTML_basics)
 - [ofcourse](https://ofcourse.kr/html-course/HTML-%EC%9E%85%EB%AC%B8)
+- [emmet](https://docs.emmet.io/abbreviations/syntax/)

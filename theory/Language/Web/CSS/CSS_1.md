@@ -1,15 +1,3 @@
-emmet
-
-ul>li*5
-
-h2#kimbap+ul>li.blue*5
-
-[emmet](https://docs.emmet.io/abbreviations/syntax/)
-
-html 기본 글꼴 크기 16px
-
-
-
 ## CSS 기본 스타일
 
 - 글자
@@ -89,7 +77,7 @@ html 기본 글꼴 크기 16px
 - 위에서부터 아래로`Block Direction`
 - 왼쪽에서 오른쪽으로 쌓인다`Inline Direction`
 
-![mdn-horizontal](HTML_1.assets/mdn-horizontal.png)
+![mdn-horizontal](CSS_1.assets/mdn-horizontal.png)
 
 <br>
 
@@ -105,7 +93,7 @@ html 기본 글꼴 크기 16px
 
   - `content` : 요소의 실제 내용
 
-    ![스크린샷 2022-08-30 오후 2.54.32](HTML_1.assets/스크린샷 2022-08-30 오후 2.54.32.png)
+    ![스크린샷 2022-08-30 오후 2.54.32](CSS_1.assets/CSS_2.png)
 
 <br>
 
@@ -160,7 +148,7 @@ html 기본 글꼴 크기 16px
   /* box-sizing을 border-box로 변경
   ```
 
-  ![스크린샷 2022-08-30 오후 3.26.34](HTML_1.assets/스크린샷 2022-08-30 오후 3.26.34.png)
+  ![스크린샷 2022-08-30 오후 3.26.34](CSS_1.assets/CSS_1.png)
 
 <br>
 
@@ -175,3 +163,12 @@ html 기본 글꼴 크기 16px
   - content 너비만큼 가로 폭 차지
   - width, height, margin-top, margin-bottom 지정 불가
   - 상하 여백은 `line-height`로 지정
+  - emmet
+  
+    ul>li*5
+  
+    h2#kimbap+ul>li.blue*5
+  
+    [emmet](https://docs.emmet.io/abbreviations/syntax/)
+  
+    html 기본 글꼴 크기 16px
