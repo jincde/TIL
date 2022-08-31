@@ -313,6 +313,6 @@
 <details>
 <summary> ✔ day 37 220830 </summary>
 
-- `HTML`, `CSS`개념
+- `HTML`, `CSS`개념.
 
 </details>
