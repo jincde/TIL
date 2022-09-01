@@ -110,6 +110,48 @@ body {
   line-height: 30px;
 }
 
+.page {
+  width: 1280px;
+  background-color: #ffffff;
+  margin: 5px auto 5px;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.product {
+  display: flex;
+  width: 400px;
+  margin-top: 25px;
+  border: 1px solid black;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product_info {
+  margin: 10px 10px;
+  text-align: center;
+}
+
+.genre {
+  margin: 5px auto;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.product_lorem{
+  text-align: left;
+  color: rgb(63, 60, 60);
+}
+
+.thumbnail {
+  /* width: 100%; */
+  width: 380px;
+  height: 240px;
+  margin-top: 10px;
+}
+
 .top {
   position: fixed;
   bottom: 1rem;
