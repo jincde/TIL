@@ -109,3 +109,14 @@ body {
   text-align: center;
   line-height: 30px;
 }
+
+.top {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  
+}
+
+.button_img {
+  width: 1.8rem;
+}
