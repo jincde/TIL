@@ -313,6 +313,23 @@
 <details>
 <summary> ✔ day 37 220830 </summary>
 
-- `HTML`, `CSS`개념.
+- `HTML`, `CSS`개념 2일차
+</details>
 
+<details>
+<summary> ✔ day 37 220831 </summary>
+
+- `웹`제작 실습
+</details>
+
+<details>
+<summary> ✔ day 37 220901 </summary>
+
+- `웹`제작 실습 2일차
+</details>
+
+<details>
+<summary> ✔ day 38 220902 </summary>
+
+- `웹` 팀프로젝트 첫번째
 </details>
