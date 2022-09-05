@@ -333,3 +333,9 @@
 
 - `웹` 팀프로젝트 첫번째
 </details>
+
+<details>
+<summary> ✔ day 39 220905 </summary>
+
+- `Bootstrap`
+</details>
