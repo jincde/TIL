@@ -1,0 +1,30 @@
+.navbar {
+    opacity: 85%;
+}
+
+.logo h4 {
+    color: white;
+}
+
+.nav_list li {
+    color: white;
+}
+
+.banner img {
+    width: auto;
+    height: 700px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bolder;
+    color:white;
+}
+
+a:active {
+    text-decoration: none;
+}
