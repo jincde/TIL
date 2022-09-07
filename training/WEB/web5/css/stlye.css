@@ -1,0 +1,27 @@
+.navbar {
+    opacity: 95%;
+}
+
+ul {
+    color: white;
+    list-style: none;
+}
+
+.card {
+    border: none;
+    border-radius: 14px;
+    box-shadow: 4px 12px 30px 6px rgb(0 0 0 / 9%);
+    padding: 0px;
+}
+
+.card-body p{
+    overflow: hidden;
+}
+
+.banner {
+    opacity: 95%;
+}
+
+h6 {
+    margin-bottom: 0px;
+}

@@ -339,3 +339,16 @@
 
 - `Bootstrap`
 </details>
+
+<details>
+<summary> ✔ day 39 220906 </summary>
+
+- `Bootstrap` 2일차
+</details>
+
+<details>
+<summary> ✔ day 40 220907 </summary>
+
+- `Bootstrap` 3일차
+- `grid`
+</details>
