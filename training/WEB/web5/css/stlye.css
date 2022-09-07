@@ -15,7 +15,8 @@ ul {
 }
 
 .card-body p{
-    overflow: hidden;
+    overflow: scroll;
+    height: 100px;
 }
 
 .banner {
