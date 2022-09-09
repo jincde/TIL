@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link href="/css/stlye.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="font-size: 0.8rem; letter-spacing: 0.2rem;">FEAR OF GOD</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="dropdown">
+                    <button class="btn dropdown-toggle text-align-center" style="border: none; height: 39.98px;" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Show
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                      <button class="dropdown-item" type="button">FEAR OF GOD</button>
+                      <button class="dropdown-item" type="button">ATHLETICS</button>
+                      <button class="dropdown-item" type="button">ESSENTIALS</button>
+                    </div>
+                </li>
+            </ul>
+                <button class="btn my-2 my-sm-0" type="submit">Cart <span class="mx-1 badge bg-warning text-body rounded-pill">0</span></button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="gx-4 py-5">
+        <article class="container d-flex align-items-center py-5">
+            <div class="product-img px-4 col-6">
+                <img src="./assets/article1.jpeg" style="width: 600px; height: 700px" />
+            </div>
+            <div class="product-info px-4 col-6">
+                <div class="small">SKU: BST-498</div>
+                <h1 class="display-7 fw-bolder">Essentials Hoodie Light Oatmeal</h1>
+                <div class="product-price">
+                    <h5 class="fs-4 mb-5"><span class="text-muted text-decoration-line-through fw-light">$110</span> $100</h5>
+                </div>
+                <div class="lead mb-3">
+                    shop the fall collection exclusively @fearofgod.com on wednesday 8.24…our first delivery introduces new styles, fabrications and hues; coral, eggshell, smoke and vintage denim
+                </div>
+                <div class="d-flex">
+                    <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem">
+                    <button class="btn btn-outline-dark flex-shrink-0">
+                        <i class="bi bi-cart-fill me-1" type="button"></i>Add to cart
+                    </button>
+                </div>
+            </div>
+        </article>
+    </section>
+    
+    <section class="bg-light py-5">
+        <div class="container px-4 mt-5">
+            <h2 class="fw-bolder my-4">Related products</h2>
+        </div>
+        <section class="">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 gx-4 gx-lg-5 justify-content-center">
+                    <article class="col mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="./assets/p1.png">
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5>Product 1</h5>
+                                    <p>$40.00 - $80.00</p>
+                                </div>
+                                <div class="card-footer px-0 bg-transparent" style="border: none;">
+                                    <div class="text-center d-flex justify-content-center">
+                                        <a class="btn">Buy now</a>
+                                        <a class="btn">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col mb-5">
+                        <div class="card h-100">
+                            <div class="badge text-danger position-absolute" style="top: 1rem; right: 1rem;">sold out</div>
+                            <img class="card-img-top" src="./assets/p2.png">
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5>Product 1</h5>
+                                    <p class="text-muted text-decoration-line-through">$110</p>
+                                </div>
+                                <div class="card-footer bg-transparent" style="border: none;">
+                                    <div class="text-center">
+                                        <a class="btn" style="color: red;">sold out</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col mb-5">
+                        <div class="card h-100">
+                            <div class="badge text-danger position-absolute" style="top: 1rem; right: 1rem;">sold out</div>
+                            <img class="card-img-top" src="./assets/p2.png">
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5>Product 1</h5>
+                                    <p class="text-muted text-decoration-line-through">$110</p>
+                                </div>
+                                <div class="card-footer bg-transparent" style="border: none;">
+                                    <div class="text-center">
+                                        <a class="btn" style="color: red;">sold out</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="./assets/p4.png">
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h5>Product 1</h5>
+                                    <p>$40.00 - $80.00</p>
+                                </div>
+                                <div class="card-footer px-0 bg-transparent" style="border: none;">
+                                    <div class="text-center d-flex justify-content-center">
+                                        <a class="btn">Buy now</a>
+                                        <a class="btn">Add to cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+    <section class="banner">
+        <div class="text-center p-5 mb-5 dark" style="color:black; height: 300px;">
+            <div class="m-5">
+                <h1 class="text-dark" style="font-weight: bolder; font-size: 3.5rem; letter-spacing: 0.5rem;">FEAR OF GOD</h1>
+                <h6 class="text-muted">fear of god not official site.</h6>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 mt-5">
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 gx-4 gx-lg-5 justify-content-center">
+                <article class="col mb-5">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="./assets/p1.png">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5>Product 1</h5>
+                                <p>$40.00 - $80.00</p>
+                            </div>
+                            <div class="card-footer px-0 bg-transparent" style="border: none;">
+                                <div class="text-center d-flex justify-content-center">
+                                    <a class="btn">Buy now</a>
+                                    <a class="btn">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col mb-5">
+                    <div class="card h-100">
+                        <div class="badge text-danger position-absolute" style="top: 1rem; right: 1rem;">sold out</div>
+                        <img class="card-img-top" src="./assets/p2.png">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5>Product 1</h5>
+                                <p class="text-muted text-decoration-line-through">$110</p>
+                            </div>
+                            <div class="card-footer bg-transparent" style="border: none;">
+                                <div class="text-center">
+                                    <a class="btn" style="color: red;">sold out</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col mb-5">
+                    <div class="card h-100">
+                        <div class="badge text-danger position-absolute" style="top: 1rem; right: 1rem;">sold out</div>
+                        <img class="card-img-top" src="./assets/p3.png">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5>Product 1</h5>
+                                <p class="text-muted text-decoration-line-through">$100</p>
+                            </div>
+                            <div class="card-footer px-0 bg-transparent" style="border: none;">
+                                <div class="text-center">
+                                    <a class="btn" style="color: red;">sold out</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col mb-5">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="./assets/p4.png">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5>Product 1</h5>
+                                <p>$40.00 - $80.00</p>
+                            </div>
+                            <div class="card-footer px-0 bg-transparent" style="border: none;">
+                                <div class="text-center d-flex justify-content-center">
+                                    <a class="btn">Buy now</a>
+                                    <a class="btn">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col mb-5">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="./assets/p5.png">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5>Product 1</h5>
+                                <p>$40.00 - $80.00</p>
+                            </div>
+                            <div class="card-footer px-0 bg-transparent" style="border: none;">
+                                <div class="text-center d-flex justify-content-center">
+                                    <a class="btn">Buy now</a>
+                                    <a class="btn">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col mb-5">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="./assets/p6.png">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5>Product 1</h5>
+                                <p>$40.00 - $80.00</p>
+                            </div>
+                            <div class="card-footer px-0 bg-transparent" style="border: none;">
+                                <div class="text-center d-flex justify-content-center">
+                                    <a class="btn">Buy now</a>
+                                    <a class="btn">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col mb-5">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="./assets/p7.png">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5>Product 1</h5>
+                                <p>$40.00 - $80.00</p>
+                            </div>
+                            <div class="card-footer px-0 bg-transparent" style="border: none;">
+                                <div class="text-center d-flex justify-content-center">
+                                    <a class="btn">Buy now</a>
+                                    <a class="btn">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="col mb-5">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="./assets/p8.png">
+                        <div class="card-body p-4">
+                            <div class="text-center">
+                                <h5>Product 1</h5>
+                                <p>$40.00 - $80.00</p>
+                            </div>
+                            <div class="card-footer px-0 bg-transparent" style="border: none;">
+                                <div class="text-center d-flex justify-content-center">
+                                    <a class="btn">Buy now</a>
+                                    <a class="btn">Add to cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner2">
+        
+    </section>
+
+    <div class="container py-5 px-4 px-lg-5">
+        <div class="row gx-lg-5 align-items-center my-5">
+            <div class="col-lg-7">
+                <img class="img-fluid rounded" src="./assets/article1.jpeg">
+            </div>
+            <div class="col-lg-5">
+                <h1 class="text-body">ESSENTIALS 2022 Core Collections</h1>
+                <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo aperiam, quia consequuntur aliquam sed reprehenderit aspernatur a sint velit exercitationem magni distinctio, itaque aut omnis, nesciunt natus? Animi, inventore velit.</p>
+                <a class="btn btn-warning">Collections</a>
+            </div>
+        </div>
+
+    <div class="d-flex">
+        <div class="col-md-4 mb-5 mx-3">
+            <div class="card h-100">
+                <div class="card">
+                    <img class="rounded p-3" src="./assets/a2.png">
+                    <div class="card-body">
+                        <p>shop the fall collection now on @fearofgod.com</p>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-warning">More info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="col-md-4 mb-5 mx-3">
+                <div class="card h-100">
+                    <div class="card">
+                        <img class="rounded p-3" src="./assets/a3.png">
+                        <div class="card-body">
+                            <p>shop the fall collection exclusively @fearofgod.com on wednesday 8.24…our first delivery introduces new styles, fabrications and hues; coral, eggshell, smoke and vintage denim</p>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-warning">More info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5 mx-3">
+                <div class="card h-100">
+                    <div class="card">
+                        <img class="rounded p-3" src="./assets/a1.png">
+                        <div class="card-body">
+                            <p>discover the 2022 core collection lookbook on fearofgod.com today and shop the collection on wednesday, 6.15.22 at 7am pst</p>
+                        </div>
+                        <div class="card-footer">
+                            <a class="btn btn-warning">More info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-5" style="background-color: #f6f6f6;">
+        <div class="container px-4 px-lg-5 text-center" style="color: black"><h>Copyright © Your Website 2022</h6></div>
+    </footer>
+
+
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+</body>
+</html>
