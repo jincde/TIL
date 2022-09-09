@@ -352,3 +352,9 @@
 - `Bootstrap` 3일차
 - `grid`
 </details>
+
+<details>
+<summary> ✔ day 41 220908 </summary>
+
+- `Bootstrap` 4일차
+</details>
