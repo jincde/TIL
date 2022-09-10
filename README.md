@@ -358,3 +358,9 @@
 
 - `Bootstrap` 4일차
 </details>
+
+<details>
+<summary> ✔ day 42 220909 </summary>
+
+- `React` 공부 시작
+</details>
