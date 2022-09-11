@@ -364,3 +364,9 @@
 
 - `React` 공부 시작
 </details>
+
+<details>
+<summary> ✔ day 42 220911 </summary>
+
+- `Javascript`
+</details>
