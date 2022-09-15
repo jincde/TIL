@@ -374,6 +374,23 @@
 <details>
 <summary> ✔ day 43 220912 </summary>
 
-
 - `Javascript`
+</details>
+
+<details>
+<summary> ✔ day 44 220913 </summary>
+
+- `Web`팀프로젝트2 1일차
+</details>
+
+<details>
+<summary> ✔ day 45 220914 </summary>
+
+- `Web`팀프로젝트2 2일차
+</details>
+
+<details>
+<summary> ✔ day 46 220915 </summary>
+
+- `JavaScript` 개념 정리
 </details>
