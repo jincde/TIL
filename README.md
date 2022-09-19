@@ -398,5 +398,5 @@
 <details>
 <summary> ✔ day 47 220916 </summary>
 
-- `JavaScript` 개념 정리.
+- `JavaScript` 개념 정리
 </details>
