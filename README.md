@@ -400,3 +400,15 @@
 
 - `JavaScript` 개념 정리
 </details>
+
+<details>
+<summary> ✔ day 48 220919 </summary>
+
+- `JavaScript` carousel 구현
+</details>
+
+<details>
+<summary> ✔ day 49 220920 </summary>
+
+- `JavaScript` lotto 추첨 구현
+</details>

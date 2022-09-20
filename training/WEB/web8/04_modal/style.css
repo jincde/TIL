@@ -1,0 +1,20 @@
+.modal-overlay {
+  /* position은 전체 화면 기준*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* 배경색, 너비, 높이 */
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100vh;
+  /* 내부 내용 */
+  color: white;
+  justify-content: center;
+  align-items: center;
+  /* 기본은 안보이게 */
+  display: none;
+}
+
+.active {
+  display: flex;
+}
