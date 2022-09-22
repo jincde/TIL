@@ -412,3 +412,15 @@
 
 - `JavaScript` lotto 추첨 구현
 </details>
+
+<details>
+<summary> ✔ day 50 220921 </summary>
+
+- `Django` 1일차
+</details>
+
+<details>
+<summary> ✔ day 51 220922 </summary>
+
+- `Django` 2일차
+</details>
