@@ -424,3 +424,9 @@
 
 - `Django` 2일차
 </details>
+
+<details>
+<summary> ✔ day 52 220923 </summary>
+
+- 서비스 분석 및 기획
+</details>
