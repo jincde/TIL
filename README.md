@@ -430,3 +430,9 @@
 
 - 서비스 분석 및 기획
 </details>
+
+<details>
+<summary> ✔ day 53 220926 </summary>
+
+- `Django` 3일차
+</details>
