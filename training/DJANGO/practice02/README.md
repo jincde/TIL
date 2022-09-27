@@ -29,7 +29,9 @@
   ]
   ```
 
-  ![스크린샷 2022-09-26 오후 11.42.57](README.assets/스크린샷 2022-09-26 오후 11.42.57.png)
+  
+  
+  ![mathfilters](README.assets/mathfilters.png)
 
 > 사용법 a|[연산자]:b
 
