@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load mathfilters %}
+
+{% block content %}
+<div>
+  <p>{{num1}} + {{num2}} = {{num1|add:num2}}</p>
+  <p>{{num1}} - {{num2}} = {{num1|sub:num2}}</p>
+  <p>{{num1}} * {{num2}} = {{num1|mul:num2}}</p>
+  <p>{{num1}} // {{num2}} = {{num1|div:num2}}</p>
+</div>
+{% endblock %}
