@@ -436,3 +436,15 @@
 
 - `Django` 3일차
 </details>
+
+<details>
+<summary> ✔ day 54 220927 </summary>
+
+- `Django` 4일차
+</details>
+
+<details>
+<summary> ✔ day 55 220928 </summary>
+
+- `Django` 5일차
+</details>
