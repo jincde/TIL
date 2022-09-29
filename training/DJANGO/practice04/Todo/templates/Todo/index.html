@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
+  <title>Todo</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="my-5">
+      <h3 class="fw-lighter text-center">Todo-List</h3>
+    </div>
+
+    <form action="{% url 'Todo:create' %}">
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">plan</span>
+        <input type="text" class="form-control" name="content" placeholder="input your plan" aria-label="Username"
+          aria-describedby="basic-addon1">
+      </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon2">rank</span>
+        <select class="form-select" name="priority" aria-label="Default select example">
+          <option selected>Unrank</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon3">date</span>
+        <input type="date" name="deadline" class="form-control">
+      </div>
+
+      <div class="d-grid gap-2">
+        <input class="btn btn-primary" type="submit" value="registration">
+      </div>
+    </form>
+
+    <hr>
+
+    <table class="table text-center align-middle">
+      <thead>
+        <tr>
+          <th scope="col">rank</th>
+          <th scope="col">plan</th>
+          <th scope="col">start</th>
+          <th scope="col">deadline</th>
+          <th scope="col">status</th>
+          <th scope="col">done</th>
+          <th scope="col">modify</th>
+          <th scope="col">delete</th>
+        </tr>
+      </thead>
+
+      {% for todo in todos %}
+      {% if not todo.completed %}
+      <tbody>
+        <tr>
+          <th scope="row">{{ todo.priority }}</th>
+          <td>{{ todo.content }}</td>
+          <td>{{ todo.created_at }}</td>
+          <td>{{ todo.deadline }}</td>
+          <td>{{ todo.completed }}</td>
+          <td><a href="{% url 'Todo:change' todo.pk %}" class="btn btn-primary">change</a></td>
+          <td><a class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modify">modify</a>
+            <!-- modal start -->
+            <div class="modal fade" id="modify" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Editing Notice</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="{% url 'Todo:update' todo.pk %}">
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">plan</span>
+                        <input type="text" class="form-control" name="content" value="{{ todo.content }}"
+                          aria-label="Username" aria-describedby="basic-addon1" autocomplete="off">
+                      </div>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon2">rank</span>
+                        <select class="form-select" name="priority" aria-label="Default select example">
+                          <option selected>{{ todo.priority }}</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                        </select>
+                      </div>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon3">date</span>
+                        <input type="date" name="deadline" class="form-control">
+                      </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                  </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </td>
+          <!-- modal end -->
+          <td><a href="{% url 'Todo:delete' todo.pk %}" class="btn btn-danger">delete</a></td>
+        </tr>
+      </tbody>
+
+      {% else %}
+      <tbody>
+        <tr>
+          <th scope="row"><del>{{ todo.priority }}</del></th>
+          <td><del>{{ todo.content }}</del></td>
+          <td><del>{{ todo.created_at }}</del></td>
+          <td><del>{{ todo.deadline }}</del></td>
+          <td><del>{{ todo.completed }}</del></td>
+          <td><a href="{% url 'Todo:change' todo.pk %}" class="btn btn-primary">change</a></td>
+          <td><a class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modify">modify</a>
+            <!-- modal start -->
+            <div class="modal fade" id="modify" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Editing Notice</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="{% url 'Todo:update' todo.pk %}">
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">plan</span>
+                        <input type="text" class="form-control" name="content" value="{{ todo.content }}"
+                          aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon2">rank</span>
+                        <select class="form-select" name="priority" aria-label="Default select example">
+                          <option selected>{{ todo.priority }}</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                        </select>
+                      </div>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon3">date</span>
+                        <input type="date" name="deadline" class="form-control">
+                      </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                  </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </td>
+          <!-- modal end -->
+          <td><a href="{% url 'Todo:delete' todo.pk %}" class="btn btn-danger">delete</a></td>
+        </tr>
+      </tbody>
+
+      {% endif %}
+      {% endfor %}
+    </table>
+  </div>
+
+  <script>
+    const myModal = document.getElementById('myModal')
+    const myInput = document.getElementById('myInput')
+
+    myModal.addEventListener('shown.bs.modal', () => {
+      myInput.focus()
+    })
+  </script>
+</body>
+
+</html>
