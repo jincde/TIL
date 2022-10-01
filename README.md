@@ -448,3 +448,15 @@
 
 - `Django` 5일차
 </details>
+
+<details>
+<summary> ✔ day 55 220929 </summary>
+
+- `Django` 6일차
+</details>
+
+<details>
+<summary> ✔ day 55 220930 </summary>
+
+- 페어프로젝트
+</details>
