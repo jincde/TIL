@@ -460,3 +460,9 @@
 
 - 페어프로젝트
 </details>
+
+<details>
+<summary> ✔ day 56 221004 </summary>
+
+- `Django` 7일차
+</details>
