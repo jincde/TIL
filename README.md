@@ -458,11 +458,18 @@
 <details>
 <summary> ✔ day 55 220930 </summary>
 
-- 페어프로젝트
-</details>
+- [페어프로젝트](https://github.com/jincde/django-pair-movie)
+
+  </details>
 
 <details>
 <summary> ✔ day 56 221004 </summary>
 
 - `Django` 7일차
+</details>
+
+<details>
+<summary> ✔ day 57 221005 </summary>
+
+- `Django` 8일차
 </details>
