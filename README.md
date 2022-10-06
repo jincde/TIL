@@ -473,3 +473,9 @@
 
 - `Django` 8일차
 </details>
+
+<details>
+<summary> ✔ day 58 221006 </summary>
+
+- `Django` 9일차
+</details>
