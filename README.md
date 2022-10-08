@@ -479,3 +479,9 @@
 
 - `Django` 9일차
 </details>
+
+<details>
+<summary> ✔ day 59 221007 </summary>
+
+- [페어프로젝트2](https://github.com/jincde/django-pair-movie2)
+</details>
