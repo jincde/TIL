@@ -485,3 +485,9 @@
 
 - [페어프로젝트2](https://github.com/jincde/django-pair-movie2)
 </details>
+
+<details>
+<summary> ✔ day 60 221011 </summary>
+
+- 
+</details>
