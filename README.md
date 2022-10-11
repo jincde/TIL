@@ -490,4 +490,5 @@
 <summary> ✔ day 60 221011 </summary>
 
 - `해커톤`멘토링 신청
+- `Django` 회원 관리
 </details>
