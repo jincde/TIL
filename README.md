@@ -492,3 +492,15 @@
 - `해커톤`멘토링 신청
 - `Django` 회원 관리
 </details>
+
+<details>
+<summary> ✔ day 60 221012 </summary>
+
+- `Django` Auth
+</details>
+
+<details>
+<summary> ✔ day 61 221013 </summary>
+
+- `Django` Auth
+</details>
