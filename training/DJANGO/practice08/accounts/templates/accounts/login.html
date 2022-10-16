@@ -6,8 +6,8 @@
 </div>
 <div class="container" style="width: 550px">
   <form action="" method="POST">
-    {% csrf_token %}
     {% bootstrap_form form %}
+    {% csrf_token %}
     <input class="btn btn-primary form-control" type="submit" value="로그인">
   </form>
   <div class="d-flex justify-content-center">

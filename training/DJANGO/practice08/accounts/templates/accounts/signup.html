@@ -6,8 +6,8 @@
 </div>
 <div class="container p-5" style="width: 550px; border: 1px solid gray; box-shadow: 10px 5px 5px darkgray;">
   <form action="" method="POST">
-    {% csrf_token %}
     {% bootstrap_form form %}
+    {% csrf_token %}
     <div class="d-flex justify-content-end">
       <input class="btn btn-primary" type="submit" value="완료">
     </div>

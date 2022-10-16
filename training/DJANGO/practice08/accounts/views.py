@@ -6,6 +6,15 @@ from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login as auth_login
 
 # Create your views here.
+def index(request):
+    users = get_user_model().objects.all()
+
+    context = {
+        'users' : users
+    }
+
+    return render(request, 'accounts/index.html', context)
+
 def signup(request):
     if request.method == "POST":
         form = CustomUserCreationForm(request.POST)
@@ -31,7 +40,7 @@ def login(request):
         if form.is_valid():
             auth_login(request, form.get_user())
 
-            return redirect("accounts:signup")
+            return redirect("accounts:index")
     
     else:
         form = AuthenticationForm()
