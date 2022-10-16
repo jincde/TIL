@@ -506,7 +506,7 @@
 </details>
 
 <details>
-<summary> ✔ day 61 221014 </summary>
+<summary> ✔ day 62 221014 </summary>
 
 - [페어프로젝트3](https://github.com/jincde/django-pair-movie3)
 </details>
