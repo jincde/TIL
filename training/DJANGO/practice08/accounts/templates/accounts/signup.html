@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+{% block content %}
+<div class="d-flex justify-content-center">
+  <h1 class="fw-light m-5">회원가입</h1>
+</div>
+<div class="container p-5" style="width: 550px; border: 1px solid gray; box-shadow: 10px 5px 5px darkgray;">
+  <form action="" method="POST">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    <div class="d-flex justify-content-end">
+      <input class="btn btn-primary" type="submit" value="완료">
+    </div>
+  </form>
+</div>
+
+{% endblock %}

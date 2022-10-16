@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+{% block content %}
+<div class="d-flex justify-content-center">
+  <h1 class="fw-light m-5">로그인</h1>
+</div>
+<div class="container" style="width: 550px">
+  <form action="" method="POST">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    <input class="btn btn-primary form-control" type="submit" value="로그인">
+  </form>
+  <div class="d-flex justify-content-center">
+    <p class="text-muted mt-2">회원이 아니라면? 이 <a class="text-decoration-none" href="{% url 'accounts:signup' %}"
+        style="color: blue">링크</a>에서 진행하십시오
+    </p>
+  </div>
+</div>
+
+{% endblock %}
