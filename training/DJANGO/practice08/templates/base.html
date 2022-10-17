@@ -15,7 +15,37 @@
 
 <body>
   <header>
-    <!-- place navbar here -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="{% url 'accounts:index' %}">PPT</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03"
+          aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarColor03">
+          <ul class="navbar-nav me-auto">
+            {% if request.user.is_authenticated %}
+            <li class="nav-item">
+              <a class="nav-link active" href="{% url 'accounts:detail' request.user.id %}">{{ request.user }}님</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="{% url 'accounts:index' %}">리뷰 목록</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="{% url 'accounts:logout' %}">로그아웃</a>
+            </li>
+            {% else %}
+            <li class="nav-item">
+              <a class="nav-link active" href="{% url 'accounts:login' %}">로그인</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="{% url 'accounts:signup' %}">회원가입</a>
+            </li>
+            {% endif %}
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
   <main>
     {% block content %}{% endblock content %}
