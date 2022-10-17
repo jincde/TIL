@@ -50,3 +50,12 @@ def login(request):
     }
 
     return render(request, "accounts/login.html", context)
+
+def detail(request, pk):
+    return render(request, 'accounts/detail.html')
+
+def update(reques, pk):
+    pass
+
+def delete(request, pk):
+    pass
