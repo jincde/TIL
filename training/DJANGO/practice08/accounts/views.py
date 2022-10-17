@@ -1,6 +1,6 @@
 from multiprocessing import context
 from django.shortcuts import render, redirect
-from .forms import CustomUserCreationForm
+from .forms import CustomUserCreationForm, CustomUserChangeForm
 from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import login as auth_login
@@ -54,8 +54,8 @@ def login(request):
 def detail(request, pk):
     return render(request, 'accounts/detail.html')
 
-def update(reques, pk):
-    pass
+def update(request, pk):
+    return render(request, 'accounts/update.html')
 
 def delete(request, pk):
     pass
