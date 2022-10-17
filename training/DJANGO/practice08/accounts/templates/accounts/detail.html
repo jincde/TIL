@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+{% block content %}
+<div class="container my-5" style="width: 600px">
+  <div class="p-4" style="box-shadow: 4px 12px 30px 6px rgb(0 0 0 / 9%); border-radius: 15px;">
+    <div class="d-flex justify-content-end">
+      <a class="mx-1" href="{% url 'accounts:update' user.pk %}" style="color: #35C5F0">수정</a>
+      <a class="mx-1" href="{% url 'accounts:delete' user.pk %}" style="color: #f77">삭제</a>
+    </div>
+    <h1>{{ user.id }}</h1>
+    <br>
+    <p>{{ user.username }}</p>
+
+    <div class="d-flex gap-2 justify-content-end">
+      <a href="{% url 'user:index' %}" class="btn"
+        style="width: 95px; background-color: #ff0558; color: white;">목록으로</a>
+    </div>
+  </div>
+</div>
+{% endblock %}

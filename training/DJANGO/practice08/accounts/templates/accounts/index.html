@@ -19,7 +19,7 @@
       {% for user in users %}
       <tr>
         <td scope="row">{{ forloop.counter }}</td>
-        <td scope="row"><a href="">{{ user.id }}</a></td>
+        <td scope="row"><a href="{% url 'accounts:detail' user.id %}">{{ user.id }}</a></td>
         <td scope="row">{{ user.username }}</td>
         <td scope="row">{{ user.date_joined }}</td>
       </tr>
