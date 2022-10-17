@@ -6,13 +6,13 @@
 </div>
 <div class="container my-5" style="width: 600px">
   <div class="p-4" style="box-shadow: 4px 12px 30px 6px rgb(0 0 0 / 9%); border-radius: 15px;">
-    <div class="d-flex justify-content-end">
-      <a class="mx-1" href="{% url 'accounts:update' user.pk %}" style="color: #35C5F0">수정</a>
-      <a class="mx-1" href="{% url 'accounts:delete' user.pk %}" style="color: #f77">삭제</a>
-    </div>
-    <h1>{{ user.id }}</h1>
-    <br>
-    <p>{{ user.username }}</p>
+    <p>
+    <h1>{{ user.username }}</h1>
+    <p class="text-muted">{{ user.date_joined }}</p>
+    </p>
+    <hr>
+    <p class="m-0">{{ user.full_name }}</p>
+    <p class="m-0">{{ user.email }}</p>
 
     <div class="d-flex gap-2 justify-content-end">
       <a href="{% url 'accounts:index' %}" class="btn"
@@ -20,30 +20,4 @@
     </div>
   </div>
 </div>
-<!-- <table class="table">
-  <thead>
-    <tr>
-      <th scope="col">회원번호</th>
-      <th scope="col">ID</th>
-      <th scope="col">이름</th>
-      <th scope="col">e-mail</th>
-      <th scope="col">가입일</th>
-      <th scope="col">등급</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">{{ user.id }}</th>
-      <td>{{ user.username }}</td>
-      <td>{{ user.full_name }}</td>
-      <td>{{ user.email }}</td>
-      <td>{{ user.date_joined }}</td>
-      <td>{{ user.is_staff }}</td>
-    </tr>
-  </tbody>
-</table>
-<div class="d-flex justify-content-end">
-  <a href="{% url 'accounts:update' user.id %}" type="button" class="btn btn-secondary">수정
-  </a>
-</div> -->
 {% endblock %}

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+{% block content %}
+<div class="d-flex justify-content-center">
+  <h1 class="fw-light m-5">회원정보 수정</h1>
+</div>
+<div class="container" style="width: 550px">
+  <form action="" method="post">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    <div class="d-flex justify-content-end">
+      <button type="submit" class="btn btn-primary">완료</button>
+    </div>
+  </form>
+</div>
+{% endblock %}
