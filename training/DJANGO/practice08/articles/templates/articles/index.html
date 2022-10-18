@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+{% block content %}
+<div class="d-flex justify-content-center">
+  <h1 class="fw-light m-5">회원목록</h1>
+</div>
+
+<div class="container" style="width: 1000px">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">ID</th>
+        <th scope="col">name</th>
+        <th scope="col">date</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for user in users %}
+      <tr>
+        <td scope="row">{{ forloop.counter }}</td>
+        <td scope="row">{{ user.id }}</a></td>
+        <td scope="row"><a href="{% url 'accounts:detail' user.pk %}">{{ user.username }}</a></td>
+        <td scope="row">{{ user.date_joined }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <div class="d-flex justify-content-end">
+    <a class="btn btn-primary mx-1" href="{% url 'accounts:update' %}">수정</a>
+  </div>
+</div>
+{% endblock %}
