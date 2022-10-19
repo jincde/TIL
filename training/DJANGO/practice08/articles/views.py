@@ -25,3 +25,12 @@ def write(request):
         form = ArticleForm()
 
     return render(request, 'articles/write.html', {'form': form})
+
+def detail(request, pk):
+    article = Article.objects.get(pk=pk)
+
+    context = {
+        "article": article
+    }
+
+    return render(request, "articles/detail.html", context)

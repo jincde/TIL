@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load django_bootstrap5 %}
+{% block content %}
+<div class="d-flex justify-content-center">
+  <h1 class="fw-light m-5">글정보</h1>
+</div>
+<div class="container my-5" style="width: 600px">
+  <div class="p-4" style="box-shadow: 4px 12px 30px 6px rgb(0 0 0 / 9%); border-radius: 15px;">
+    <p>
+    <h1>{{ article.title }}</h1>
+    <p class="text-muted">{{ article.writer }} <span class="fw-light">|</span> {{ article.created_at }}</p>
+    </p>
+    <hr>
+    <p class="m-0">{{ article.content }}</p>
+
+    <div class="d-flex gap-2 justify-content-end">
+      <a href="{% url 'accounts:index' %}" class="btn"
+        style="width: 95px; background-color: #ff0558; color: white;">목록으로</a>
+    </div>
+  </div>
+</div>
+{% endblock %}
