@@ -10,18 +10,18 @@
     <thead>
       <tr>
         <th scope="col">#</th>
-        <th scope="col">ID</th>
-        <th scope="col">name</th>
-        <th scope="col">date</th>
+        <th scope="col">제목</th>
+        <th scope="col">작성자</th>
+        <th scope="col">작성일</th>
       </tr>
     </thead>
     <tbody>
-      {% for user in users %}
+      {% for article in articles %}
       <tr>
         <td scope="row">{{ forloop.counter }}</td>
-        <td scope="row">{{ user.id }}</a></td>
-        <td scope="row"><a href="{% url 'accounts:detail' user.pk %}">{{ user.username }}</a></td>
-        <td scope="row">{{ user.date_joined }}</td>
+        <td scope="row">{{ article.title }}</a></td>
+        <td scope="row"><a href="{% url 'accounts:detail' user.pk %}">{{ article.writer }}</a></td>
+        <td scope="row">{{ article.created_at }}</td>
       </tr>
       {% endfor %}
     </tbody>

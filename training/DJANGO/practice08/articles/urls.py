@@ -5,4 +5,5 @@ app_name = "articles"
 
 urlpatterns = [
     path("", views.index, name="index"),
+    path("write/", views.write, name="write"),
 ]
