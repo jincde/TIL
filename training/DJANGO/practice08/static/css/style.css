@@ -1,0 +1,15 @@
+.input-title::placeholder {
+  font-size: 1.5rem;
+}
+
+.button1 a:hover {
+  color: #fec428;
+}
+
+.btn-outline-dark:hover,
+.btn-outline-dark:focus,
+.btn-outline-dark:active,
+.btn-outline-dark.active,
+.open>.dropdown-toggle.btn-outline-dark {
+  color: #fec428;
+}

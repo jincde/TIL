@@ -1,32 +1,30 @@
 {% extends 'base.html' %}
-{% block contents %}
-
-<div class="row mt-5">
-    <div class="col-12">
-        <form method="POST" action=".">
-            {% csrf_token %}
-            {% for field in form %}
-            <div class="form-group">
-                <label for="{{ field.id_for_label }}">{{field.label}}</label>
-                {{ field.field.widget.name }}
-
-                {% ifequal field.name 'contents' %}
-                <textarea class="form-control" name="{{ field.name }}" placeholder="{{field.label}}"></textarea>
-
-                {% else %}
-                <input type="{{ field.field.widget.input_type }}" class="form-control" id="{{field.id_for_label}}"
-                    placeholder="{{field.label}}" name="{{field.name}}">
-                {% endifequal %}
-            </div>
-            {% if field.errors %}
-            <span style="color:red">{{field.errors}}</span>
-            {% endif %}
-            {% endfor %}
-            <button type="submit" class="btn btn-primary" style="float:right;">글쓰기</button>
-            <button type="button" class="btn btn-primary" style="float:left;"
-                onclick="location.href ='/board/list/'">돌아가기</button>
-        </form>
-    </div>
+{% load django_bootstrap5 %}
+{% block content %}
+<div class="d-flex justify-content-center">
+  <h1 class="fw-light m-5">게시글 작성</h1>
 </div>
+<div class="container my-5" style="width: 700px">
+  <div class="p-4" style="box-shadow: 4px 12px 30px 6px rgb(0 0 0 / 9%); border-radius: 15px;">
+    <form class="p-5" action="" method="POST">
+      {% csrf_token %}
+      <div class="d-flex justify-content-end">
+        <button type="submit" class="btn btn-primary">작성</button>
+      </div>
+      {% bootstrap_form form layout='inline'%}
 
+    </form>
+    <form class="p-5" action="." method="POST">
+      {% csrf_token %}
+      <div class="d-flex justify-content-end">
+        <a class="btn" type="submit">작성완료</a>
+      </div>
+      <h2><input class="input-title form-control mb-3" style="border:0px; font-size: 1.5rem;" name="title"
+          placeholder="제목"></h2>
+      <hr>
+      <textarea rows="40" cols="40" class="form-control mt-3" style="border:0px" name="content"
+        placeholder="내용"></textarea>
+    </form>
+  </div>
+</div>
 {% endblock %}
