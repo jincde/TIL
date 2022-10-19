@@ -19,8 +19,8 @@
       {% for article in articles %}
       <tr>
         <td scope="row">{{ forloop.counter }}</td>
-        <td scope="row">{{ article.title }}</a></td>
-        <td scope="row"><a href="{% url 'accounts:detail' user.pk %}">{{ article.writer }}</a></td>
+        <td scope="row"><a href="{% url 'articles:detail' article.pk %}">{{ article.title }}</a></td>
+        <td scope="row">{{ article.writer }}</td>
         <td scope="row">{{ article.created_at }}</td>
       </tr>
       {% endfor %}
