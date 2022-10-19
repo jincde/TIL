@@ -6,7 +6,11 @@
 </div>
 <div class="container my-5" style="width: 600px">
   <div class="p-4" style="box-shadow: 4px 12px 30px 6px rgb(0 0 0 / 9%); border-radius: 15px;">
-    <p>
+    <div class="d-flex justify-content-end">
+      <a class="mx-2" href="{% url 'articles:update' article.id %}">
+        {% bootstrap_button button_type="submit" button_class="btn-primary" content="수정" %}
+      </a>
+    </div>
     <h1>{{ article.title }}</h1>
     <p class="text-muted">{{ article.writer }} <span class="fw-light">|</span> {{ article.created_at }}</p>
     </p>
