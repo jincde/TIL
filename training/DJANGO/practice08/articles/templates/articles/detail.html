@@ -6,9 +6,38 @@
 </div>
 <div class="container my-5" style="width: 600px">
   <div class="p-4" style="box-shadow: 4px 12px 30px 6px rgb(0 0 0 / 9%); border-radius: 15px;">
+    {% if request.user == article.writer %}
+    <form action="{% url 'articles:delete' article.pk %}" method="POST" class="form">
+      {% csrf_token %}
+      <div class="d-block d-lg-none">
+        <a href="{% url 'articles:update' article.pk %}" class="btn btn-outline-primary form-control mb-3">수정</a>
+        <input class="btn btn-outline-danger form-control mb-3" type="submit" value="삭제">
+        <a href="{% url 'articles:index' %}" class="btn btn-outline-secondary form-control mb-3">뒤로</a>
+      </div>
+      <div class="d-none d-lg-block">
+        <a href="{% url 'articles:update' article.pk %}" class="btn btn-outline-primary">수정</a>
+        <input class="btn btn-outline-danger" type="submit" value="삭제">
+        <a href="{% url 'articles:index' %}" class="btn btn-outline-secondary">뒤로</a>
+      </div>
+    </form>
+    {% else %}
+    <div class="d-block d-lg-none">
+      <button class="btn btn-outline-primary form-control mb-3 disabled">수정</button>
+      <button class="btn btn-outline-danger form-control mb-3 disabled">삭제</button>
+      <a href="{% url 'articles:index' %}" class="btn btn-outline-secondary form-control mb-3">뒤로</a>
+    </div>
+    <div class="d-none d-lg-block">
+      <button class="btn btn-outline-primary disabled">수정</button>
+      <button class="btn btn-outline-danger disabled">삭제</button>
+      <a href="{% url 'articles:index' %}" class="btn btn-outline-secondary">뒤로</a>
+    </div>
+    {% endif %}
     <div class="d-flex justify-content-end">
       <a class="mx-2" href="{% url 'articles:update' article.id %}">
         {% bootstrap_button button_type="submit" button_class="btn-primary" content="수정" %}
+      </a>
+      <a class="mx-2" href="{% url 'articles:delete' article.id %}">
+        {% bootstrap_button button_type="submit" button_class="btn-primary" content="삭제" %}
       </a>
     </div>
     <h1>{{ article.title }}</h1>
