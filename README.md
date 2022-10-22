@@ -510,3 +510,9 @@
 
 - [페어프로젝트3](https://github.com/jincde/django-pair-movie3)
 </details>
+
+<details>
+<summary> ✔ day 66 221021 </summary>
+
+- [페어프로젝트4]
+</details>
