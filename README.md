@@ -516,3 +516,10 @@
 
 - [페어프로젝트4]
 </details>
+
+<details>
+<summary> ✔ day 69 221026 </summary>
+
+- 비동기처리
+</details>
+
