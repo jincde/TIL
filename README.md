@@ -523,3 +523,9 @@
 - 비동기처리
 </details>
 
+
+<details>
+<summary> ✔ day 71 221028 </summary>
+
+- `heroku` 배포
+</details>
