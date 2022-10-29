@@ -518,6 +518,12 @@
 </details>
 
 <details>
+<summary> ✔ day 68 221025 </summary>
+
+- `django`
+</details>
+
+<details>
 <summary> ✔ day 69 221026 </summary>
 
 - 비동기처리
