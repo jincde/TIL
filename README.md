@@ -529,3 +529,9 @@
 
 - `heroku` 배포
 </details>
+
+<details>
+<summary> ✔ day 72 221031 </summary>
+
+- 모의 프로젝트 시작
+  </details>
