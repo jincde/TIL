@@ -539,5 +539,5 @@
 <details>
 <summary> ✔ day 72 221031 </summary>
 
-- 모의 프로젝트 
+- 모의 프로젝트
   </details>
