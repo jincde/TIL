@@ -546,4 +546,10 @@
 <summary> ✔ day 73 221103 </summary>
 
 - 모의 프로젝트
-  </details>
+</details>
+
+<details>
+<summary> ✔ day 74 221104 </summary>
+
+- 모의 프로젝트
+</details>
