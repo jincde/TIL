@@ -559,3 +559,9 @@
 
 - 모의 프로젝트
 </details>
+
+<details>
+<summary> ✔ day 76 221109 </summary>
+
+- 세미 프로젝트 2회차 : `치킨컬리`
+</details>
