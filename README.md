@@ -565,3 +565,11 @@
 
 - 세미 프로젝트 2회차 : `치킨컬리`
 </details>
+
+<details>
+<summary> ✔ day 77 221110 </summary>
+
+- 세미 프로젝트 2회차 : `치킨컬리`
+- index 전체 구조
+- `navbar` 구조
+</details>
