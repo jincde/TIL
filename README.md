@@ -573,3 +573,9 @@
 - index 전체 구조
 - `navbar` 구조
 </details>
+
+<details>
+<summary> ✔ 221119 </summary>
+
+- `SSAFY` 에세이 제출
+</details>
