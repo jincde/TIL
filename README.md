@@ -577,5 +577,5 @@
 <details>
 <summary> ✔ 221119 </summary>
 
-- `SSAFY` 에세이 제출
+- `SSAFY` 에세이 제출.
 </details>
