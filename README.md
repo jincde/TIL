@@ -579,3 +579,9 @@
 
 - `SSAFY` 에세이 제출.
 </details>
+
+<details>
+<summary> ✔ 221124 </summary>
+
+- `13팀` 프로젝트 시작.
+</details>
