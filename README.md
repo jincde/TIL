@@ -11,7 +11,7 @@
 
 #### 가입
 
-- `github` 가입.
+- `github` 가입
 - `notion` 가입
 - `syllaverse` 가입
 - `discord` 가입
