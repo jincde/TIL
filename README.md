@@ -609,3 +609,10 @@
 
 - `자바스크립트` 1일차
 </details>
+
+<details>
+<summary> ✔ 221227 </summary>
+
+- `자바스크립트` 2일차
+- array 내장 함수
+</details>
