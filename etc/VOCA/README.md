@@ -96,3 +96,18 @@
 
 - 형제자매
 - `sqld`
+
+## 15. Eject
+
+- 꺼내다
+- `react`
+
+## 16. Manifest
+
+- 명백한, 자세히
+- `react`
+
+## 17. Fragment
+
+- 파편, 부서진 조각
+- `react`
