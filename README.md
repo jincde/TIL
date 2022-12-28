@@ -616,3 +616,12 @@
 - `자바스크립트` 2일차
 - array 내장 함수
 </details>
+
+<details>
+<summary> ✔ 221228 </summary>
+
+- `자바스크립트` 3일차
+- node.js
+- npm
+- why react?
+</details>
