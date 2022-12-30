@@ -625,3 +625,9 @@
 - npm
 - why react?
 </details>
+
+<details>
+<summary> ✔ 221228 </summary>
+
+- `react` 복습
+</details>
