@@ -637,3 +637,10 @@
 
 - `자바스크립트` 가위바위보
 </details>
+
+<details>
+<summary> ✔ 230101 </summary>
+
+- `FE` 토이프로젝트 코드리뷰
+- `react` 상태(state)
+</details>
