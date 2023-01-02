@@ -644,3 +644,9 @@
 - `FE` 토이프로젝트 코드리뷰
 - `react` 상태(state)
 </details>
+
+<details>
+<summary> ✔ 230102 </summary>
+
+- `react` props
+</details>
