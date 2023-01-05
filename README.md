@@ -650,3 +650,9 @@
 
 - `react` props
 </details>
+
+<details>
+<summary> ✔ 230105 </summary>
+
+- shallow copy(deep copy)
+</details>
