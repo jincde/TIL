@@ -656,3 +656,9 @@
 
 - shallow copy(deep copy)
 </details>
+
+<details>
+<summary> ✔ 230106 </summary>
+
+- `react` component
+</details>
