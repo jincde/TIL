@@ -668,3 +668,9 @@
 
 - `FE스터디` 클론코딩
 </details>
+
+<details>
+<summary> ✔ 230108 </summary>
+
+- `바닐라JS` carousel
+</details>
