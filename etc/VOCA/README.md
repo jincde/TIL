@@ -131,3 +131,9 @@
 - 탁한, 신선하지 않은, 
 - `react` staleTime 속성
 <br>
+
+## 20. propagation
+
+- 번식, 증식, 전파
+- 이벤트 버블링 방지 `stopPropagation()`메소드
+  <br>
