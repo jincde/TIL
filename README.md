@@ -674,3 +674,9 @@
 
 - `바닐라JS` carousel
 </details>
+
+<details>
+<summary> ✔ 230109 </summary>
+
+- `바닐라JS` 이벤트핸들러
+</details>
