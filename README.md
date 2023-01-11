@@ -686,3 +686,10 @@
 
 - `react` CRUD 실습 
 </details>
+
+<details>
+<summary> ✔ 230111 </summary>
+
+- `react hook` 최적화
+- `useMemo()` 
+</details>
