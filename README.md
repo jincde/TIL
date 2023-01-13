@@ -693,3 +693,11 @@
 - `react hook` 최적화
 - `useMemo()` 
 </details>
+
+<details>
+<summary> ✔ 230113 </summary>
+
+- `react hook`
+- `useEffect()`
+- AJAX 라이브러리 `axios` 
+</details>
