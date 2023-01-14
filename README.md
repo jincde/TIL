@@ -701,3 +701,9 @@
 - `useEffect()`
 - AJAX 라이브러리 `axios` 
 </details>
+
+<details>
+<summary> ✔ 230114 </summary>
+
+- `Context API` 
+</details>
