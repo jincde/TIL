@@ -725,3 +725,10 @@
 
 - `FE` 프로그래머스 클론코딩(리액트)
 </details>
+
+<details>
+<summary> ✔ 230119 </summary>
+
+- localStorage
+- react 최적화 
+</details>
