@@ -732,3 +732,9 @@
 - localStorage
 - react 최적화 
 </details>
+
+<details>
+<summary> ✔ 230120 </summary>
+
+- 코딩테스트
+</details>
