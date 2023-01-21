@@ -738,3 +738,9 @@
 
 - 코딩테스트
 </details>
+
+<details>
+<summary> ✔ 230121 </summary>
+
+- 자바스크립트 알고리즘 풀이
+</details>
