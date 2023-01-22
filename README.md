@@ -744,3 +744,9 @@
 
 - 자바스크립트 알고리즘 풀이
 </details>
+
+<details>
+<summary> ✔ 230122 </summary>
+
+- `.Object.entries()` 메소드
+</details>
