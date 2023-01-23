@@ -750,3 +750,10 @@
 
 - `.Object.entries()` 메소드
 </details>
+
+<details>
+<summary> ✔ 230122 </summary>
+
+- `.unshift()` 메소드
+- `shift()` 메소드
+</details>
