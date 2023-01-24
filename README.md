@@ -763,3 +763,10 @@
 
 - `재귀함수` 팩토리얼 기능
 </details>
+
+<details>
+<summary> ✔ 230125 </summary>
+
+- `.match(RegExp)` 메소드
+- `.reduce((acc, cur))` 메소드
+</details>
