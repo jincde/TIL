@@ -757,3 +757,9 @@
 - `.unshift()` 메소드
 - `shift()` 메소드
 </details>
+
+<details>
+<summary> ✔ 230124 </summary>
+
+- `재귀함수` 팩토리얼 기능
+</details>
