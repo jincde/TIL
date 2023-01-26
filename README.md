@@ -770,3 +770,9 @@
 - `.match(RegExp)` 메소드
 - `.reduce((acc, cur))` 메소드
 </details>
+
+<details>
+<summary> ✔ 230126 </summary>
+
+- `프론트엔드` 학습 방향성
+</details>
