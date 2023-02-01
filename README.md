@@ -776,3 +776,9 @@
 
 - `프론트엔드` 학습 방향성
 </details>
+
+<details>
+<summary> ✔ 230127 ~ 230131 </summary>
+
+- `OpenSea` 리액트 클론코딩
+</details>
