@@ -782,3 +782,9 @@
 
 - `OpenSea` 리액트 클론코딩
 </details>
+
+<details>
+<summary> ✔ 230202 </summary>
+
+- 최종면접
+</details>
