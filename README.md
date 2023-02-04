@@ -794,3 +794,9 @@
 
 - 그리드 시스템
 </details>
+
+<details>
+<summary> ✔ 230204 </summary>
+
+- 웹 성능 최적화
+</details>
