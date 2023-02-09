@@ -819,3 +819,9 @@
 - `.findIndex()` `.find()`
 - `@mixin`, `@include`
 </details>
+
+<details>
+<summary> ✔ 230210 </summary>
+
+- `AJAX`
+  </details>
