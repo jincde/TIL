@@ -811,3 +811,11 @@
 <summary> ✔ 230206 ~ 08 </summary>
 
 - </details>
+
+<details>
+<summary> ✔ 230209 </summary>
+
+- 첫 출근
+- `.findIndex()` `.find()`
+- `@mixin`, `@include`
+</details>
