@@ -824,4 +824,12 @@
 <summary> ✔ 230210 </summary>
 
 - `AJAX`
+</details>
+
+<details>
+<summary> ✔ 230211 </summary>
+
+- `::before` `::after` 활용 레이아웃
+- `linear/radial-gradient`
   </details>
+
