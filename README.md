@@ -837,3 +837,9 @@
 <summary> ✔ 230211 </summary>
 
 - </details>
+
+<details>
+<summary> ✔ 230212 </summary>
+
+- 랜딩페이지
+</details>
