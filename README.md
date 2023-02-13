@@ -839,7 +839,7 @@
 - </details>
 
 <details>
-<summary> ✔ 230212 </summary>
+<summary> ✔ 230212~13 </summary>
 
 - 랜딩페이지
 </details>
