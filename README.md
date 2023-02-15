@@ -839,8 +839,9 @@
 - </details>
 
 <details>
-<summary> ✔ 230212~14 </summary>
+<summary> ✔ 230212~15 </summary>
 
 
 - 랜딩페이지
+- 반응형 적용
 </details>
