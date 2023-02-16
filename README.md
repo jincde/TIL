@@ -845,3 +845,8 @@
 - 랜딩페이지
 - 반응형 적용
 </details>
+
+<details>
+<summary> ✔ 230216 </summary>
+- `pointer-events: none`
+</details>
