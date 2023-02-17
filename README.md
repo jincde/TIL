@@ -849,4 +849,7 @@
 <details>
 <summary> ✔ 230216 </summary>
 - `pointer-events: none`
+- `scroll-snap-type`
+- useEffect, useState
+- react-spring 라이브러리 분석
 </details>
