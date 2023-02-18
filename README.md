@@ -850,6 +850,6 @@
 <summary> ✔ 230216 </summary>
 - `pointer-events: none`
 - `scroll-snap-type`
-- useEffect, useState
+- useEffect, useState 활용코드
 - react-spring 라이브러리 분석
 </details>
