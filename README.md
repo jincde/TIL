@@ -859,3 +859,9 @@
 
 - online tutorials
 </details>
+
+<details>
+<summary> ✔ 230220 </summary>
+
+- grid-template-areas
+</details>
