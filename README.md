@@ -870,4 +870,5 @@
 <summary> ✔ 230221 </summary>
 
 - `.fetch()`
+- `Medium API`
 </details>
