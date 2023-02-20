@@ -865,3 +865,9 @@
 
 - grid-template-areas
 </details>
+
+<details>
+<summary> ✔ 230221 </summary>
+
+- `.fetch()`
+</details>
