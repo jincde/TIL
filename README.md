@@ -872,3 +872,9 @@
 - `.fetch()`
 - `Medium API`
 </details>
+
+<details>
+<summary> ✔ 230223 </summary>
+
+- `transition-delay`
+</details>
