@@ -892,3 +892,9 @@
 
 - `refProp`
 </details>
+
+<details>
+<summary> ✔ 230228 </summary>
+
+- `intersectionObserver`
+</details>
