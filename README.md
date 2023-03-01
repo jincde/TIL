@@ -898,3 +898,9 @@
 
 - `intersectionObserver`
 </details>
+
+<details>
+<summary> ✔ 230301 </summary>
+
+- `getter, setter`
+</details>
