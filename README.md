@@ -910,3 +910,9 @@
 
 - `Promise()`
 </details>
+
+<details>
+<summary> ✔ 230303 </summary>
+
+- `async/await`
+</details>
