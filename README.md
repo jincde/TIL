@@ -904,3 +904,9 @@
 
 - `getter, setter`
 </details>
+
+<details>
+<summary> ✔ 230302 </summary>
+
+- `Promise()`
+</details>
