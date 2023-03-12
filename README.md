@@ -934,3 +934,10 @@
 
 - `@craco` 라이브러리
 </details>
+
+<details>
+<summary> ✔ 230312 </summary>
+
+- `.catch()` 메소드
+- 조건부 렌더링
+</details>
