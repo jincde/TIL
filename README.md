@@ -941,3 +941,9 @@
 - `.catch()` 메소드
 - 조건부 렌더링
 </details>
+
+<details>
+<summary> ✔ 230313 </summary>
+
+- `.fetch()` 예외처리 
+</details>
