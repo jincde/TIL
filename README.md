@@ -957,5 +957,5 @@
 <details>
 <summary> ✔ 230321 </summary>
 
-- `admin 페이지` 퍼블리싱  
+- `admin` 퍼블리싱  
 </details>
