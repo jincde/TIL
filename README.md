@@ -971,3 +971,9 @@
 
 - `SCSS`
 </details>
+
+<details>
+<summary> ✔ 230324 </summary>
+
+- `전역 상태 관리`
+</details>
