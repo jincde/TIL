@@ -1006,6 +1006,5 @@
 <details>
 <summary> ✔ 230403 </summary>
 
-- `@splitting`
-- `@gsap`
+- `.useMemo()`
 </details> 
