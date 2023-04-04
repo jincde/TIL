@@ -1007,4 +1007,10 @@
 <summary> ✔ 230403 </summary>
 
 - `.useMemo()`
-</details> 
+</details>
+
+<details>
+<summary> ✔ 230405 </summary>
+
+- `React.memo()`
+</details>
