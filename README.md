@@ -1014,3 +1014,9 @@
 
 - `React.memo()`
 </details>
+
+<details>
+<summary> ✔ 230406 </summary>
+
+- `throttle`
+</details>
