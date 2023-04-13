@@ -1038,3 +1038,9 @@
 
 - `grep`
 </details> 
+
+<details>
+<summary> ✔ 230413 </summary>
+
+- `prop function`
+</details> 
