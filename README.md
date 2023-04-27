@@ -1056,3 +1056,9 @@
 
 - `오픈소스 코드분석`
 </details> 
+
+<details>
+<summary> ✔ 230425~26 </summary>
+
+- `spread operator`활용 props
+</details>
