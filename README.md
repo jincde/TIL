@@ -1080,3 +1080,9 @@
 
 - email verification
 </details>
+
+<details>
+<summary> ✔ 230521 </summary>
+
+- styled components
+</details>
