@@ -1104,3 +1104,9 @@
 
 - code review
 </details>
+
+<details>
+<summary> ✔ 230607 </summary>
+
+- interface, abstract
+</details>
