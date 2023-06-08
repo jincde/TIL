@@ -1110,3 +1110,9 @@
 
 - interface, abstract
 </details>
+
+<details>
+<summary> ✔ 230608 </summary>
+
+- release note
+</details>
