@@ -1116,3 +1116,9 @@
 
 - release note
 </details>
+
+<details>
+<summary> ✔ 230618 </summary>
+
+- CSS Trick (font-size: 62.5%)
+</details>
