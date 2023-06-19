@@ -1122,3 +1122,9 @@
 
 - CSS Trick (font-size: 62.5%)
 </details>
+
+<details>
+<summary> ✔ 230619 </summary>
+
+- 설계
+</details>
