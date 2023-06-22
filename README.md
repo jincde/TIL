@@ -1128,3 +1128,9 @@
 
 - 설계
 </details>
+
+<details>
+<summary> ✔ 230622 </summary>
+
+- 클래스 기반
+</details>
