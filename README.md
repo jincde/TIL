@@ -1134,3 +1134,9 @@
 
 - 클래스 기반
 </details>
+
+<details>
+<summary> ✔ 230625 </summary>
+
+- 클래스 기반
+</details>
