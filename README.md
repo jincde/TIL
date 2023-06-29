@@ -1140,3 +1140,9 @@
 
 - 클래스 기반
 </details>
+
+<details>
+<summary> ✔ 230629 </summary>
+
+- Graph QL
+</details>
