@@ -1146,3 +1146,9 @@
 
 - Graph QL
 </details>
+
+<details>
+<summary> ✔ 230701 </summary>
+
+- API Connect, data fetching
+</details>
