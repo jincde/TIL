@@ -1156,3 +1156,8 @@
 <summary> ✔ 230703 </summary>
 
 - API connect
+
+<details>
+<summary> ✔ 230705 </summary>
+
+- `GraphQL` Mutation
