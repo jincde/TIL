@@ -1161,3 +1161,8 @@
 <summary> ✔ 230705 </summary>
 
 - `GraphQL` Mutation
+
+<details>
+<summary> ✔ 230706 </summary>
+
+- `GraphQL` Mutation
